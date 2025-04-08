@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>טפסים לנהג חדש</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #3498db;
+    }
+    hr {
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>טפסים לנהג חדש</h1>
+
+<form>
+  <h2>1. אישור קצין בטיחות בתעבורה</h2>
+  <label>שם הנהג:</label>
+  <input type="text">
+  <label>ת.ז:</label>
+  <input type="text">
+  <label>מאשר/ת כי הנהג עבר הדרכת בטיחות:</label>
+  <input type="text">
+  <label>תאריך:</label>
+  <input type="text">
+  <label>חתימת קצין בטיחות:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>2. תיק נהג</h2>
+  <label>שם הנהג:</label>
+  <input type="text">
+  <label>ת.ז:</label>
+  <input type="text">
+  <label>כתובת:</label>
+  <input type="text">
+  <label>טלפון:</label>
+  <input type="text">
+  <label>רישיון נהיגה מסוג:</label>
+  <input type="text">
+  <label>ותק בנהיגה:</label>
+  <input type="text">
+  <label>תאריך התחלה:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>3. טופס למבחן מעשי בנהיגה</h2>
+  <label>שם הבוחן:</label>
+  <input type="text">
+  <label>ת.ז:</label>
+  <input type="text">
+  <label>ממצאי הבוחן:</label>
+  <textarea rows="5"></textarea>
+  <label>חתימת הבוחן:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>4. בדיקות רכב שבועיות</h2>
+  <label>שם הנהג:</label>
+  <input type="text">
+  <label>תאריך:</label>
+  <input type="text">
+  <label>מה נבדק ברכב:</label>
+  <textarea rows="5"></textarea>
+</form>
+
+<form>
+  <h2>5. אישור קבלת/החזרת רכב</h2>
+  <label>שם הנהג:</label>
+  <input type="text">
+  <label>סוג הרכב:</label>
+  <input type="text">
+  <label>מספר רכב:</label>
+  <input type="text">
+  <label>תאריך קבלה / החזרה:</label>
+  <input type="text">
+  <label>חתימת הנהג:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>6. פירוט הנושאים – הכרת הרכב</h2>
+  <label>מנוע, בלמים, היגוי, אורות, מגבים:</label>
+  <textarea rows="5"></textarea>
+  <label>חתימת הנהג:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>7. נוהלי קבע לנהיגה בטוחה במשאית</h2>
+  <label>תיאור הנהלים:</label>
+  <textarea rows="5"></textarea>
+  <label>חתימת הנהג:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>8. העמסה עם דופן אחורית</h2>
+  <label>הנחיות בטיחות:</label>
+  <textarea rows="5"></textarea>
+  <label>חתימת הנהג:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>9. קליטת נהג חדש - מבחן עיוני</h2>
+  <label>שם הנהג:</label>
+  <input type="text">
+  <label>ת.ז:</label>
+  <input type="text">
+  <label>מענה לשאלות בטיחות ותמרורים:</label>
+  <textarea rows="6"></textarea>
+  <label>חתימת קצין בטיחות:</label>
+  <input type="text">
+</form>
+
+<form>
+  <h2>10. השתתפות עצמית בתאונות</h2>
+  <label>התחייבות לתשלום השתתפות עצמית במקרה של תאונה:</label>
+  <textarea rows="4"></textarea>
+  <label>תאריך:</label>
+  <input type="text">
+  <label>חתימת הנהג:</label>
+  <input type="text">
+</form>
+
+<button onclick="window.print()">הדפס את כל המסמכים</button>
+
+</body>
+</html>
